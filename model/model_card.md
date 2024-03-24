@@ -9,7 +9,7 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 - Version : 1.0.0
 - Type : Binary classification
 - Information : This model utilizes a Random Forest algorithm for binary classification tasks, specifically predicting income levels based on census data.
-- License : 
+- License : MIT License
 
 ## Intended Use
 - Primary intended uses : Predicting whether an individual's income exceeds $50,000 per year based on census data.
@@ -17,12 +17,12 @@ For additional information see the Model Card paper: https://arxiv.org/pdf/1810.
 - Out-of-scope use cases : Any uses beyond binary classification tasks related to income prediction, such as regression or clustering.
 
 ## Training Data
-- Datasets : [Census Income Dataset by UC Irvine](https://archive.ics.uci.edu/dataset/20/census+income) training data split.
+- Datasets : [Census Income Dataset by UC Irvine](https://archive.ics.uci.edu/dataset/20/census+income) training data split 80%.
 - Motivation : The Census Income Dataset provides comprehensive socio-economic information which can be utilized to predict income levels.
 - Preprocessing : Data cleaning, feature encoding, and feature scaling were performed to prepare the data for training.
 
 ## Evaluation Data
-- Datasets : [Census Income Dataset by UC Irvine](https://archive.ics.uci.edu/dataset/20/census+income) test data split.
+- Datasets : [Census Income Dataset by UC Irvine](https://archive.ics.uci.edu/dataset/20/census+income) test data split 20%.
 
 
 ## Metrics
